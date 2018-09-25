@@ -1,14 +1,14 @@
 $( document ).ready(function(){
-	//side nav bar
-    $('.button-collapse').sideNav({
-    menuWidth: 170, 
-    edge: 'left', 
-    closeOnClick: true, 
-    draggable: true
-    });
+	// //side nav bar
+    // // $('.button-collapse').sideNav({
+    // // menuWidth: 170, 
+    // // edge: 'left', 
+    // // closeOnClick: true, 
+    // // draggable: true
+    // });
 	//type effect
     $('span.text-change').typed({
-        strings: ["Developer.", "Poetry Writer", "Frontend","Fashion lover"], //array text
+        strings: ["Developer.", "Poetry Writer.", "tea lover","Fashion lover"], //array text
         typeSpeed: 60,
         backDelay: 600,
         callback: function () { $(this) }

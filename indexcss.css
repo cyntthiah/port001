@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Asap', sans-serif;;
   }
   
   .hero-image {
@@ -13,12 +13,13 @@ body {
     position: relative;
   }
   
-  .hero-text {
+  #particles-js {
     text-align: center;
+    font-size: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color:white;
+    color:black;
   }
-  
+ 
