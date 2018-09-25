@@ -125,21 +125,7 @@
 
 				setTimeout(function() {
 
-						// ----- this part is optional ----- //
-						// check string array position
-						// on the first string, only delete one word
-						// the stopNum actually represents the amount of chars to
-						// keep in the current string. In my case it's 14.
-						// if (self.arrayPos == 1){
-						//	self.stopNum = 14;
-						// }
-						//every other time, delete the whole typed string
-						// else{
-						//	self.stopNum = 0;
-						// }
-
-					// ----- continue important stuff ----- //
-						// replace text with current text + typed characters
+						
 						self.el.text(self.text + curString.substr(0, curStrPos));
 
 						// if the number (id of character in current string) is 
