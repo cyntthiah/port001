@@ -4,7 +4,7 @@ body {
   }
   
   .hero-image {
-    background-image: url(".\imagenes\cyn.png");
+    background-image: url("./imagenes/cherryblossom.jpg");
     background-color: #cccccc;
     height: 500px;
     background-position: center;
@@ -19,6 +19,6 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color:rgb(124, 13, 109);
+    color:white;
   }
   
