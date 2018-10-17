@@ -4,9 +4,9 @@ body {
   }
   
   .hero-image {
-    background-image: url("./imagenes/cherryblossom.jpg");
+    height: 100vh;
+    background-image: url("./imagenes/cherrybloosom2.jpg");
     background-color: #cccccc;
-    height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,4 +22,7 @@ body {
     transform: translate(-50%, -50%);
     color:black;
   }
+  img {
+    border-radius: 50%;
+}
  
