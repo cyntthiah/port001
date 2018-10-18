@@ -1,14 +1,7 @@
 $( document ).ready(function(){
-	// //side nav bar
-    // // $('.button-collapse').sideNav({
-    // // menuWidth: 170, 
-    // // edge: 'left', 
-    // // closeOnClick: true, 
-    // // draggable: true
-    // });
-	//type effect
+
     $('span.text-change').typed({
-        strings: ["Developer.", "Poetry Writer.", "tea lover","Fashion lover"], //array text
+        strings: ["<Front-end Developer/>.", "Poetry Writer.", "Tea lover","Manga Enthusiast"], //array text
         typeSpeed: 60,
         backDelay: 600,
         callback: function () { $(this) }
