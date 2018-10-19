@@ -55,16 +55,25 @@ header.masthead h1 {
     padding-left: 0;
 }
 
-
+.hab{
+    text-align: center;
+    font-size: 3em;
+}
 
 
 #photos {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-}
 
+    padding-inline-start: 10em;
+    padding-top: 10rem;
+    padding-bottom: 6rem;
+}
+.about{
+    text-align: center;
+}
 #photos img {
-    height: 15em;
+  
+    padding: 5em
+    height:15em;
     border-radius: 0.8em;
     transition: transform 2s ease-in-out;
 }
@@ -148,7 +157,7 @@ footer.footer {
 
 .order-now a:hover {
     background:gold;
-    color:#fff;
+    color:lightyellow ;
     opacity: 1;
 }
 
