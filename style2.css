@@ -1,7 +1,7 @@
 body {
    
 
-    font-family: 'Noticia Text', serif;
+    font-family: 'Josefin Sans', sans-serif;
 
 
 }
@@ -74,7 +74,7 @@ header.masthead h1 {
     transform: scale(1.15);
 }
 
-#photos h2 {
+/* #photos h2 {
     position: center;
     top: 50%;
     left: 50%;
@@ -83,7 +83,7 @@ header.masthead h1 {
     border-bottom: 0.15em solid black;
     color: red;
     display: none;
-}
+} */
 
 #photos .col-md-4:hover h2 {
     position: center;
@@ -118,25 +118,25 @@ img.img-fluid.rounded-circle.mb-3 {
     padding-top: 7rem;
     padding-bottom: 7rem
 }
-
+/* 
 .call-to-action .overlay {
     position: absolute;
-    background-color:whites;
+    background-color:lightblue;
     height: 100%;
     width: 100%;
     top: 0;
     left: 0;
     opacity: .3
-}
+} */
 
 footer.footer {
-    padding-top: 4rem;
-    padding-bottom: 4rem
+    padding-top: 5rem;
+    padding-bottom: 5rem
 }
 
-.myhr {
+/* .myhr {
     border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
-}
+} */
 
 .txt-upper {
     text-transform: uppercase;
@@ -147,7 +147,7 @@ footer.footer {
 }
 
 .order-now a:hover {
-    background: blue;
+    background:gold;
     color:#fff;
     opacity: 1;
 }
@@ -172,16 +172,16 @@ section .section-title {
 }
 
 #footer {
-    background:white !important;
+    background:lightyellow !important;
 }
 
-#footer h5 {
+/* #footer h5 {
     padding-left: 10px;
-    border-left: 3px solid blueviolet;
-    padding-bottom: 6px;
-    margin-bottom: 20px;
+    border-left: 3px solid lightblue;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
     color: black;
-}
+} */
 /* 
 #footer a {
     color: black;
@@ -254,7 +254,7 @@ section .section-title {
     overflow: hidden;
     text-align: center;
     z-index: 99999999;
-    background-color: #777777;
+    background-color: blue;
     color: #eeeeee;
     width: 50px;
     height: 48px;
@@ -274,7 +274,7 @@ section .section-title {
 }
 
 .scroll-top-wrapper:hover {
-    background-color:red;
+    background-color:blue;
 }
 
 .scroll-top-wrapper.show {
@@ -286,3 +286,4 @@ section .section-title {
 .scroll-top-wrapper i.fa {
     line-height: inherit;
 }
+
