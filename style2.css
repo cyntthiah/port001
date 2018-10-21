@@ -1,7 +1,7 @@
 body {
    
 
-    font-family: 'Josefin Sans', sans-serif;
+ font-family: 'Josefin Sans', sans-serif;
 
 
 }
@@ -62,8 +62,8 @@ header.masthead h1 {
 
 
 #photos {
-
-    padding-inline-start: 10em;
+/* 
+    padding-inline-start: 10em; */
     padding-top: 10rem;
     padding-bottom: 6rem;
 }
@@ -83,16 +83,9 @@ header.masthead h1 {
     transform: scale(1.15);
 }
 
-/* #photos h2 {
-    position: center;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-top: 0.15em solid black;
-    border-bottom: 0.15em solid black;
-    color: red;
-    display: none;
-} */
+.containerp{
+    text-align: justify;
+}
 
 #photos .col-md-4:hover h2 {
     position: center;
@@ -296,3 +289,6 @@ section .section-title {
     line-height: inherit;
 }
 
+.centrado{
+    text-align: center;
+}
