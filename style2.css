@@ -10,7 +10,7 @@ body {
 header.masthead {
     position: relative;
     background-color: #343a40;
-    height: 90vh;
+    height: 80vh;
     background: url(./imagenes/mangas.jpg) no-repeat fixed center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -120,33 +120,13 @@ img.img-fluid.rounded-circle.mb-3 {
     padding-top: 7rem;
     padding-bottom: 7rem
 }
-/* 
-.call-to-action .overlay {
-    position: absolute;
-    background-color:lightblue;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    opacity: .3
-} */
 
 footer.footer {
     padding-top: 5rem;
     padding-bottom: 5rem
 }
 
-/* .myhr {
-    border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
-} */
 
-.txt-upper {
-    text-transform: uppercase;
-}
-
-.mybg-dark {
-    background: rgba(42, 35, 29, 0.7803921568627451) !important;
-}
 
 .order-now a:hover {
     background:gold;
