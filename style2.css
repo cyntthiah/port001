@@ -70,6 +70,7 @@ header.masthead h1 {
 .about{
     text-align: center;
 }
+
 #photos img {
   
     padding: 5em
@@ -101,6 +102,9 @@ img.img-fluid.rounded-circle.mb-3 {
     width: 192px;
     object-fit: cover;
 }
+.quehago{
+    display: inline-block;
+  }
 .featherlight .featherlight-image{
     width:600px;
     height:400px;
