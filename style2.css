@@ -73,7 +73,7 @@ header.masthead h1 {
 
 #photos img {
   
-    padding: 5em
+    padding: 5em;
     height: 15em;
     border-radius: 0.8em;
     transition: transform 2s ease-in-out;
