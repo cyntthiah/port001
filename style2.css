@@ -10,7 +10,7 @@ body {
 header.masthead {
     position: relative;
     background-color: #343a40;
-    height: 80vh;
+    height: 70vh;
     background: url(./imagenes/mangas.jpg) no-repeat fixed center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -20,82 +20,47 @@ header.masthead {
     padding-bottom: 8rem;
 }
 
-header.masthead .overlay {
-    position: absolute;
-    background-color: #212529;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    opacity: .3
-}
 
 header.masthead h1 {
     font-size: 2rem
+    
 }
 
-@media (min-width:768px) {
+@media (min-width:0px) {
     header.masthead {
-        padding-top: 12rem;
-        padding-bottom: 12rem
+        padding-top: 5rem;
+        padding-bottom: 5rem
     }
     header.masthead h1 {
-        font-size: 4rem
+        font-size: 6rem
     }
 }
 
-.my-padding {
-    padding-top: 8rem;
-    padding-bottom: 8rem;
-}
 
-.form-row>.col,
-.form-row>[class*=col-] {
-    padding-right: 0;
-    padding-left: 0;
-}
 
 .hab{
     text-align: center;
     font-size: 3em;
 }
 
-
-#photos {
-/* 
-    padding-inline-start: 10em; */
-    padding-top: 10rem;
-    padding-bottom: 6rem;
-}
 .about{
     text-align: center;
 }
 
 #photos img {
-  
+    background-color: lightblue;
     padding: 5em;
     height: 15em;
     border-radius: 0.8em;
     transition: transform 2s ease-in-out;
+   
 }
 
-#photos img:hover {
-    opacity: 0.8;
-    transform: scale(1.15);
-}
 
 .containerp{
     text-align: justify;
 }
 
-#photos .col-md-4:hover h2 {
-    position: center;
-}
-
-.portfolio-item {
-    position: center;
-    margin-bottom: 2rem;
-}
 
 img.img-fluid.rounded-circle.mb-3 {
     height: 192px;
@@ -114,7 +79,7 @@ img.img-fluid.rounded-circle.mb-3 {
 
 .mybg {
     position: relative;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0.7686274509803922), rgba(255, 255, 255, 0.7686274509803922)), url(./imagenes/mangas.jpg) no-repeat center center fixed;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.7686274509803922), rgba(255, 255, 255, 0.7686274509803922)), url(./imagenes/hanami-2018-Japon-tu-gran-viaje.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -182,7 +147,7 @@ section .section-title {
 }
 
 
-#footer ul.quick-links li a i {
+/* #footer ul.quick-links li a i {
     margin-right: 5px;
 }
 
@@ -192,7 +157,7 @@ section .section-title {
     position: absolute;
     top: 50%;
     left: 50%;   font-weight: 700;
-}
+} */
 
 @media (max-width:767px) {
     #footer h5 {
