@@ -22,7 +22,7 @@ header.masthead {
 
 
 header.masthead h1 {
-    font-size: 2rem
+    font-size: 5rem
     
 }
 
@@ -48,10 +48,10 @@ header.masthead h1 {
 }
 
 #photos img {
-    background-color: lightblue;
-    padding: 5em;
-    height: 15em;
-    border-radius: 0.8em;
+    /* background-color: lightblue; */
+    padding: 0em;
+    height: 10em;
+    border-radius: 0.5em; 
     transition: transform 2s ease-in-out;
    
 }
